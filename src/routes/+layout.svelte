@@ -471,7 +471,7 @@
 				<p>Hi. I'm Jo,</p>
 				<p>
 					I live in Salt Lake City and have been doing graphic design, UI/UX design, and frontend
-					development for ten years and am passionate about it. I'm currently open for new
+					development for nearly ten years and am passionate about it. I'm currently open for new
 					employment opportunities or freelance jobs, please feel free to reach out to me.
 				</p>
 				<p>Thanks! <span class="text-2xl ml-3">😎</span></p>
