@@ -470,9 +470,10 @@
 			>
 				<p>Hi. I'm Jo,</p>
 				<p>
-					I live in Salt Lake City and have been doing graphic design, UI/UX design, and frontend
-					development for nearly ten years and am passionate about it. I'm currently open for new
-					employment opportunities or freelance jobs, please feel free to reach out to me.
+					I live in Salt Lake City and have been doing graphic design, web design and web
+					development for ten years, and UI design and UX design for over 5 years, and am passionate
+					about it. I'm currently open for new employment opportunities or freelance jobs, please
+					feel free to reach out to me.
 				</p>
 				<p>Thanks! <span class="text-2xl ml-3">😎</span></p>
 				<span class="pt-4 px-[24px] flex lg:justify-start justify-center items-center w-full">
