@@ -53,19 +53,19 @@
 		{
 			id: 0,
 			name: 'Jo Pearson Designer',
-			imgurl: 'src/lib/assets/images/slide-logo.svg',
+			imgurl: 'images/slide-logo.svg',
 			attribution: 'Jo Pearson'
 		},
 		{
 			id: 1,
 			name: 'Evident Stack Code',
-			imgurl: 'src/lib/assets/images/slide-evident-stack.png',
+			imgurl: 'images/slide-evident-stack.png',
 			attribution: 'Jo Pearson'
 		},
 		{
 			id: 2,
 			name: 'Evident Database Animation',
-			imgurl: 'src/lib/assets/images/DatabaseAnimation-1600x1064.gif',
+			imgurl: 'images/DatabaseAnimation-1600x1064.gif',
 			attribution: 'Jo Pearson'
 		}
 	];
@@ -92,11 +92,7 @@
 	let:toggle
 >
 	<NavBrand href="/" class="ml-4">
-		<img
-			src="src/lib/assets/images/icon-logo.svg"
-			class="mr-4 h-6 sm:h-9"
-			alt="Jo Pearson Designer Logo"
-		/>
+		<img src="images/icon-logo.svg" class="mr-4 h-6 sm:h-9" alt="Jo Pearson Designer Logo" />
 		<span
 			class="self-center whitespace-nowrap lg:text-4xl text-xl font-bold tracking-widest font-header text-zinc-400 uppercase"
 			>Jo<span class="text-zinc-600">Pearson</span><span class="text-zinc-800">Designer</span></span
@@ -186,7 +182,7 @@
 					class="w-[20px] h-[20px] text-zinc-500 hover:text-zinc-400"
 				/></a
 			>
-			<a href="https://github.com/" target="_blank"
+			<a href="https://github.com/jopearsondesigner" target="_blank"
 				><Icon name="github-solid" class="w-[20px] h-[20px] text-zinc-500 hover:text-zinc-400" /></a
 			>
 		</NavLi>
@@ -223,7 +219,7 @@
 		>
 			<div class="flex flex-col">
 				<img
-					src="src/lib/assets/images/icon-logo.svg"
+					src="images/icon-logo.svg"
 					alt="Jo Pearson logo"
 					class="h-[102px] h-[102px] hidden xl:block mb-7"
 				/>
@@ -253,7 +249,7 @@
 			class="xl:h-[420px] lg:h-[300px] h-[175.5px] py-4 bg-gradient-to-t from-zinc-950 via-zinc-950 to-zinc-900 w-full flex items-start justify-center border-b border-zinc-800 overflow-hidden"
 		>
 			<img
-				src="src/lib/assets/images/slide-evident-stack.png"
+				src="images/slide-evident-stack.png"
 				alt="Evident Stack product & code"
 				class="w-[1400px]"
 			/>
@@ -266,7 +262,7 @@
 					<span
 						class="xl:max-w-[400px] lg:max-w-[400px] md:max-w-[400px] sm:max-w-[400px] max-w-[250px] w-auto"
 					>
-						<Player src="src/lib/assets/lottie/DataAnimation.json" />
+						<Player src="lottie/DataAnimation.json" />
 					</span>
 				</div>
 				<div
@@ -275,14 +271,14 @@
 					<span
 						class="xl:max-w-[740px] lg:min-w-[530px] md:max-w-[400px] sm:max-w-[400px] min-w-[300px] w-auto overflow-hidden flex justify-center lg:-mr-0 -mr-[20px]"
 					>
-						<Player src="src/lib/assets/lottie/DatabaseAnimation.json" />
+						<Player src="lottie/DatabaseAnimation.json" />
 					</span>
 				</div>
 				<div class="flex h-auto justify-center items-center">
 					<span
 						class="xl:max-w-[500px] lg:max-w-[400px] md:max-w-[400px] sm:max-w-[400px] max-w-[250px] w-auto"
 					>
-						<Player src="src/lib/assets/lottie/DeployAnimation.json" />
+						<Player src="lottie/DeployAnimation.json" />
 					</span>
 				</div>
 			</div>
@@ -312,16 +308,12 @@
 			<span class="flex items-center">
 				<p class="lg:text-sm text-xs text-zinc-600 mr-0">Site built with</p>
 				<a href="https://kit.svelte.dev/"
-					><img
-						src="src/lib/assets/images/svelte-kit.svg"
-						alt="Svelte-kit logo"
-						class="lg:h-16 h-12"
-					/></a
+					><img src="images/svelte-kit.svg" alt="Svelte-kit logo" class="lg:h-16 h-12" /></a
 				>
 				<p class="text-lg text-white">+</p>
 				<a href="https://tailwindcss.com/"
 					><img
-						src="src/lib/assets/images/Tailwind_CSS_logo.svg"
+						src="images/Tailwind_CSS_logo.svg"
 						alt="Tailwind CSS logo"
 						class="lg:h-5 h-4 ml-4"
 					/></a
@@ -337,11 +329,7 @@
 					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] bg-white/[.0666] pointer-events-none"
 					href="/branding"
 				>
-					<img
-						src="src/lib/assets/images/icon-branding-active.svg"
-						alt="Branding Icon"
-						class="h-20 w-auto"
-					/>
+					<img src="images/icon-branding-active.svg" alt="Branding Icon" class="h-20 w-auto" />
 				</a>
 				<h2
 					class="xl:text-3xl lg:text-2xl text-xs mt-3 font-header uppercase tracking-widest text-[#ffebb1] mt-1 pb-4 border-b-4 border-[#ff05bd] whitespace-nowrap text-center transition duration-200 ease-in"
@@ -353,11 +341,7 @@
 					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] hover:bg-white/[.0666] transition duration-200 ease-in"
 					href="/branding#portfolio"
 				>
-					<img
-						src="src/lib/assets/images/icon-branding.svg"
-						alt="Prototypes Icon"
-						class="h-20 w-auto"
-					/>
+					<img src="images/icon-branding.svg" alt="Prototypes Icon" class="h-20 w-auto" />
 				</a>
 				<a href="/branding#portfolio"
 					><h2
@@ -374,11 +358,7 @@
 					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] bg-white/[.0666] pointer-events-none"
 					href="/prototypes"
 				>
-					<img
-						src="src/lib/assets/images/icon-prototypes-active.svg"
-						alt="Prototypes Icon"
-						class="h-20 w-auto"
-					/>
+					<img src="images/icon-prototypes-active.svg" alt="Prototypes Icon" class="h-20 w-auto" />
 				</a>
 				<h2
 					class="xl:text-3xl lg:text-2xl text-xs mt-3 font-header uppercase tracking-widest text-[#ffebb1] mt-1 pb-4 border-b-4 border-[#ff05bd] whitespace-nowrap text-center transition duration-200 ease-in"
@@ -390,11 +370,7 @@
 					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] hover:bg-white/[.0666] transition duration-200 ease-in"
 					href="/prototypes#portfolio"
 				>
-					<img
-						src="src/lib/assets/images/icon-prototypes.svg"
-						alt="Prototypes Icon"
-						class="h-20 w-auto"
-					/>
+					<img src="images/icon-prototypes.svg" alt="Prototypes Icon" class="h-20 w-auto" />
 				</a>
 				<a href="/prototypes#portfolio">
 					<h2
@@ -412,11 +388,7 @@
 					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] bg-white/[.0666] pointer-events-none"
 					href="/websites"
 				>
-					<img
-						src="src/lib/assets/images/icon-websites-active.svg"
-						alt="Websites Icon"
-						class="h-20 w-auto"
-					/>
+					<img src="images/icon-websites-active.svg" alt="Websites Icon" class="h-20 w-auto" />
 				</a>
 				<h2
 					class="xl:text-3xl lg:text-2xl text-xs mt-3 font-header uppercase tracking-widest text-[#ffebb1] mt-1 pb-4 border-b-4 border-[#ff05bd] whitespace-nowrap text-center transition duration-200 ease-in"
@@ -428,11 +400,7 @@
 					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] hover:bg-white/[.0666] transition duration-200 ease-in"
 					href="/websites#portfolio"
 				>
-					<img
-						src="src/lib/assets/images/icon-websites.svg"
-						alt="Websites Icon"
-						class="h-20 w-auto"
-					/>
+					<img src="images/icon-websites.svg" alt="Websites Icon" class="h-20 w-auto" />
 				</a>
 				<a href="/websites#portfolio"
 					><h2
@@ -449,11 +417,7 @@
 					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] bg-white/[0.0666] pointer-events-none"
 					href="/apps"
 				>
-					<img
-						src="src/lib/assets/images/icon-apps-active.svg"
-						alt="Apps Icon"
-						class="h-20 w-auto"
-					/>
+					<img src="images/icon-apps-active.svg" alt="Apps Icon" class="h-20 w-auto" />
 				</a>
 				<h2
 					class="xl:text-3xl lg:text-2xl text-xs mt-3 font-header uppercase tracking-widest text-[#ffebb1] mt-1 pb-4 border-b-4 border-[#ff05bd] whitespace-nowrap text-center transition duration-200 ease-in"
@@ -465,7 +429,7 @@
 					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] hover:bg-white/[.0666] transition duration-200 ease-in"
 					href="/apps#portfolio"
 				>
-					<img src="src/lib/assets/images/icon-apps.svg" alt="Apps Icon" class="h-20 w-auto" />
+					<img src="images/icon-apps.svg" alt="Apps Icon" class="h-20 w-auto" />
 				</a>
 				<a href="/apps#portfolio"
 					><h2
@@ -491,13 +455,13 @@
 	<div class="lg:container mx-auto">
 		<div class="grid grid-cols-12">
 			<div
-				class="xl:col-start-2 xl:col-span-3 lg:col-start-2 lg:col-span-3 md:col-start-5 md:col-span-4 col-start-3 col-span-8 flex items-center justify-center"
+				class="xl:col-start-2 xl:col-span-3 lg:col-start-1 lg:col-span-5 md:col-start-4 md:col-span-6 col-start-2 col-span-10 flex items-center justify-center"
 			>
 				<div class="rounded-full border-[32px] border-white/[.02]">
 					<div
 						class="rounded-full border-[32px] border-white/[.06] w-auto h-auto overflow-hidden aspect-square"
 					>
-						<img src="src/lib/assets/images/jo-photo-1.jpg" alt="Jo Pearson" />
+						<img src="images/jo-photo-2.png" alt="Jo Pearson" />
 					</div>
 				</div>
 			</div>
@@ -507,7 +471,7 @@
 				<p>Hi. I'm Jo,</p>
 				<p>
 					I live in Salt Lake City and have been doing graphic design, UI/UX design, and frontend
-					development for over ten years and am passionate for it. I'm currently open for new
+					development for ten years and am passionate about it. I'm currently open for new
 					employment opportunities or freelance jobs, please feel free to reach out to me.
 				</p>
 				<p>Thanks! <span class="text-2xl ml-3">😎</span></p>
@@ -564,17 +528,23 @@
 								<div class="colp-1">
 									<div id="title">
 										<h1>Jo Pearson</h1>
-										<p>UI DESIGN SPECIALIST</p>
+										<p>DESIGNER & DEVELOPER</p>
 									</div>
 								</div>
 								<div class="colp-2">
 									<div id="info">
 										<p>jopearsondesigner.com</p>
 										<p>jopearsondesigner@gmail.com</p>
-										<p>(801) 414-0873</p>
+										<p>(385) 461-7921</p>
 									</div>
 								</div>
-								<div class="colp-3">&nbsp;</div>
+								<div class="colp-3">
+									<p class="pb-4 font-bold">Creative professional specializing in UI/UX design.</p>
+									<p class="font-bold">
+										A unique enthusiasm and blend of talent with experience in both product designer
+										and frontend developer roles.
+									</p>
+								</div>
 							</div>
 						</div>
 						<div class="m-bottom" />
@@ -584,16 +554,44 @@
 									<h2 class="subhead-grey">Experience</h2>
 								</div>
 								<div class="colp-2">
+									<h2>LEAD DESIGNER</h2>
+									<h3>Evident Systems</h3>
+									<p>2021-2023</p>
+								</div>
+								<div class="colp-3">
+									<ul>
+										<li>Produced all UI design for our SAAS products and websites</li>
+										<li>
+											Produced all UX design for company e.g. wireframes, interactive prototypes
+										</li>
+										<li>
+											Built the UI for our products and websites, responsible for all frontend
+											development
+										</li>
+										<li>
+											Created all the company branding e.g. product logos, animations, and web
+											graphics
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="rowp">
+								<div class="colp-1">
+									<div class="colp-1">&nbsp;</div>
+								</div>
+								<div class="colp-2">
 									<h2>DESIGNER AND DEVELOPER</h2>
 									<h3>Freelance Work</h3>
 									<p>2019-2020</p>
 								</div>
 								<div class="colp-3">
-									<p>
-										Recently have been busy doing various kinds of freelance work. Including making
-										motion banner ads for a prominent university, wireframing, and front-end coding
-										working remotely.
-									</p>
+									<ul>
+										<li>
+											Designed high-quality web banners for WGU (Western Governors University) for
+											marketing channels across the Internet
+										</li>
+										<li>Created professional animated versions of WGU web banners</li>
+									</ul>
 								</div>
 							</div>
 							<div class="rowp">
@@ -604,13 +602,21 @@
 									<p>2016-2019</p>
 								</div>
 								<div class="colp-3">
-									<p>
-										Worked on the User Experience team in collaboration with other UX architects.
-										Primary responsibilities were to work with stakeholders in the discovery phase,
-										create the wireframing, rapid and full HTML prototyping, and produce the final
-										pixel-perfect UI solutions for digital products on both the consumer and
-										presenter side of the company's website.
-									</p>
+									<ul>
+										<li>
+											Collaborated with UX strategists, managers and stakeholders on achieving
+											quarterly business goals
+										</li>
+										<li>
+											Produced high-quality prototypes and low fidelity/high fidelity wireframes for
+											all website applications
+										</li>
+										<li>Designed marketing landing pages and digital assets for dev</li>
+										<li>
+											In role of <em>User Experience Prototyper</em> produced fully functional HTML prototypes
+											for the Executive Team
+										</li>
+									</ul>
 								</div>
 							</div>
 							<div class="rowp">
@@ -621,14 +627,15 @@
 									<p>2016</p>
 								</div>
 								<div class="colp-3">
-									<p>
-										Was on a small team with one other UX designer working within the dev
-										department. We collaborated on various UI tasks supporting dev projects,
-										including wireframing and prototyping. On one project I conducted all UX
-										research, design, and built out HTML prototypes for a new application to monitor
-										the costly failure of reefer units on semi-trailers transporting freight across
-										the country.
-									</p>
+									<ul>
+										<li>
+											Produced wireframes and prototypes for development of new internal
+											applications
+										</li>
+										<li>
+											Conducted user interviews and user observation for new application design
+										</li>
+									</ul>
 								</div>
 							</div>
 							<div class="rowp">
@@ -639,29 +646,26 @@
 									<p>2015-2016</p>
 								</div>
 								<div class="colp-3">
-									<p>
-										Worked on the dev team as the only UX designer. Updated the company's internal
-										apps both creating new UI and being responsible for the front-end development of
-										each. Also doing UI design and development to support some fundraising
-										partnerships.
-									</p>
+									<ul>
+										<li>Designed new UI for internal applications</li>
+										<li>Coded new UI for internal applications</li>
+									</ul>
 								</div>
 							</div>
 							<div class="rowp">
 								<div class="colp-1">&nbsp;</div>
 								<div class="colp-2">
-									<h2>WEB AND GRAPHIC DESIGNER</h2>
+									<h2>WEB DESIGNER</h2>
 									<h3>AdvancedMD</h3>
 									<p>2014-2015</p>
 								</div>
 								<div class="colp-3">
-									<p>
-										Was brought on to the marketing team to help with the internal launch of the
-										company's new website and worked on multiple kinds of other projects, as well.
-										Designed—and coded—emails for numerous marketing campaigns, web banners, landing
-										pages, a microsite, and other miscellaneous tasks. Also did print design for
-										trade show exhibition and for various marketing collateral.
-									</p>
+									<ul>
+										<li>
+											Created digital assets for new website and designed all marketing collateral
+										</li>
+										<li>Designed and coded all marketing email campaigns</li>
+									</ul>
 								</div>
 							</div>
 							<div class="rowp">
@@ -672,11 +676,9 @@
 									<p>2013</p>
 								</div>
 								<div class="colp-3">
-									<p>
-										Completed a graphic design internship with one of the best award-winning
-										creative agencies in town. Assisted in the branding for various clients such as
-										designing logos, web graphics, and marketing materials for print production.
-									</p>
+									<ul>
+										<li>Interned with one of the best, award-winning creative agencies in Utah</li>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -703,35 +705,29 @@
 									<h2 class="subhead-grey">Skills</h2>
 								</div>
 								<div class="colp-1">
+									<p>Figma</p>
+									<p>Adobe XD</p>
+									<p>Sketch</p>
+								</div>
+								<div class="colp-1">
 									<p>Photoshop</p>
 									<p>Illustrator</p>
 									<p>InDesign</p>
 									<p>After Effects</p>
 								</div>
 								<div class="colp-1">
-									<p>Adobe XD</p>
-									<p>Sketch</p>
-									<p>Motion Design</p>
-									<p>Photo Editing</p>
-								</div>
-								<div class="colp-1">
-									<p>Typography</p>
+									<p>Wireframes</p>
+									<p>Prototyping</p>
 									<p>Branding</p>
-									<p>Layout</p>
 									<p>Illustration</p>
 								</div>
 								<div class="colp-1">
-									<p>HTML5</p>
-									<p>CSS3</p>
-									<p>Responsive Design</p>
+									<p>HTML</p>
+									<p>CSS</p>
 									<p>Javascript</p>
+									<p>Git</p>
 								</div>
-								<div class="colp-1">
-									<p>Wireframing</p>
-									<p>Prototyping</p>
-									<p>UX Research</p>
-									<p>User Journey</p>
-								</div>
+								<div class="colp-1" />
 							</div>
 						</div>
 						<div class="m-bottom" />
@@ -773,9 +769,6 @@
 		<div class="border border-zinc-800 rounded m-3 p-6">
 			<form action="https://api.web3forms.com/submit" method="POST">
 				<input type="hidden" name="access_key" value="da63253b-f414-4a8f-9bca-7f83c4d546d1" />
-				<!-- <input type="hidden" name="subject" value="New Submission from Web3Forms" />
-				<input type="hidden" name="redirect" value="https://web3forms.com/success" />
-				<input type="checkbox" name="botcheck" id="" style="display: none;" /> -->
 				<Label for="input-group-1" class="block mb-1 text-xs text-zinc-400">Name</Label>
 				<Input
 					required
@@ -783,7 +776,7 @@
 					type="text"
 					name="name"
 					placeholder="Your first and last name"
-					class="mb-4 bg-white/[.08] placeholder-text-zinc-800 border-zinc-500 text-white"
+					class="mb-4 lg:p-[10px] px-[10px] py-2 bg-white/[.08] placeholder-text-zinc-800 border-zinc-500 text-white"
 				/>
 				<Label for="input-group-1" class="block mb-1 text-xs text-zinc-400">Email</Label>
 				<Input
@@ -792,7 +785,7 @@
 					type="email"
 					name="email"
 					placeholder="Your email"
-					class="mb-4 bg-white/[.08] placeholder-text-zinc-800 border-zinc-500 text-white"
+					class="mb-4 lg:p-[10px] px-[10px] py-2  bg-white/[.08] placeholder-text-zinc-800 border-zinc-500 text-white"
 				/>
 				<Label for="input-group-1" class="block mb-1 text-xs text-zinc-400">Message</Label>
 				<Textarea
@@ -800,24 +793,16 @@
 					id="message"
 					name="message"
 					label="Your message"
-					rows={4}
-					placeholder="Leave a comment..."
-					class="mb-4 bg-white/[.08] placeholder-text-zinc-800 border-zinc-500 text-white"
-				/>
-				<!-- <Textarea
-					id="message"
-					name="message"
-					label="Your message"
 					rows={2}
 					placeholder="Leave a comment..."
-					class="block lg:hidden mb-4 bg-white/[.08] placeholder-text-zinc-800 border-zinc-500 text-white"
-				/> -->
+					class="mb-4 lg:p-[10px] px-[10px] py-2 bg-white/[.08] placeholder-text-zinc-800 border-zinc-500 text-white"
+				/>
 				<div class="h-captcha" data-captcha="true" />
 				<div class="w-full flex justify-start">
 					<Button
 						type="submit"
-						size="md"
-						class="!ring-1 !ring-[#ffebb1] !bg-gradient-to-t !from-[#ffebb1] !via-[#ffebb1] !via-20% !to-[#fff] hover:!bg-gradient-to-t hover:!from-[#ffebb1] hover:!via-[#ffebb1] hover:!via-80% hover:!to-[#fff] !text-zinc-600 !text-xs uppercase !rounded mt-4 mx-[24px]"
+						size="sm"
+						class="!ring-1 !ring-[#ffebb1] !bg-gradient-to-t !from-[#ffebb1] !via-[#ffebb1] !via-20% !to-[#fff] hover:!bg-gradient-to-t hover:!from-[#ffebb1] hover:!via-[#ffebb1] hover:!via-80% hover:!to-[#fff] !text-zinc-600 !text-xs uppercase !rounded lg:mt-4 mx-[24px]"
 						on:click>Send Message</Button
 					>
 				</div>
@@ -832,7 +817,7 @@
 		<a href="https://www.linkedin.com/in/jopearsondesigner/" target="_blank"
 			><Icon name="linkedin-solid" class="w-6 h-6 text-zinc-500 hover:text-zinc-400" /></a
 		>
-		<a href="https://github.com/" target="_blank"
+		<a href="https://github.com/jopearsondesigner" target="_blank"
 			><Icon name="github-solid" class="w-6 h-6 text-zinc-500 hover:text-zinc-400" /></a
 		>
 	</div>
@@ -971,6 +956,19 @@
 		font-weight: 300;
 		margin: 0;
 	}
+	#resume-print p.font-bold {
+		font-weight: bold;
+	}
+	#resume-print ul {
+		list-style-type: circle;
+	}
+	#resume-print ul li {
+		font-family: 'PT Sans', sans-serif;
+		font-size: 9pt;
+		font-weight: 300;
+		margin: 0;
+	}
+
 	.p-pc {
 		padding-right: 1pc;
 	}
