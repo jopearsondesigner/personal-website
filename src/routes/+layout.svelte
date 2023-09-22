@@ -231,10 +231,11 @@
 				<h2
 					class="self-center whitespace-nowrap lg:text-3xl text-xl font-medium tracking-widest font-header text-zinc-400 uppercase mt-3"
 				>
-					UI <span class="text-zinc-700">Design</span><span class="text-zinc-800">—</span>UX
-					<span class="text-zinc-700">Design</span><span class="text-zinc-800">—</span>Frontend
-					<span class="text-zinc-700 hidden md:inline-block">Development</span>
-					<span class="text-zinc-700 inline-block md:hidden">Dev</span>
+					UI<span class="text-zinc-700">Design</span><span class="text-zinc-800">—</span>UX<span
+						class="text-zinc-700">Design</span
+					><span class="text-zinc-800">—</span>Frontend<span
+						class="text-zinc-700 hidden md:inline-block">Development</span
+					><span class="text-zinc-700 inline-block md:hidden">Dev</span>
 				</h2>
 				<span class="flex flex-row justify-center lg:mt-10 mt-4">
 					<Button
