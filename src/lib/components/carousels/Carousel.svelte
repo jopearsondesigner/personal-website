@@ -141,11 +141,7 @@
 										<span class="flex items-center">
 											<p class="text-sm text-zinc-400 mr-2">Made with</p>
 											<a href="https://www.figma.com"
-												><img
-													src="src/lib/assets/images/figma-logo.svg"
-													alt="Figma logo"
-													class="lg:h-10 h-6"
-												/></a
+												><img src="images/figma-logo.svg" alt="Figma logo" class="lg:h-10 h-6" /></a
 											>
 										</span>
 									</div>
@@ -168,7 +164,7 @@
 										<p class="text-sm text-zinc-400 mr-2">Made with</p>
 										<a href="https://www.adobe.com/products/aftereffects.html"
 											><img
-												src="src/lib/assets/images/after-effects-logo.svg"
+												src="images/after-effects-logo.svg"
 												alt="Adobe After Effects logo"
 												class="lg:h-10 h-6"
 											/></a
@@ -176,7 +172,7 @@
 										<p class="text-lg text-zinc-400 mx-2">+</p>
 										<a href="https://lottiefiles.com/"
 											><img
-												src="src/lib/assets/images/lottie-logo.svg"
+												src="images/lottie-logo.svg"
 												alt="Lottie Files logo"
 												class="lg:h-8 h-6"
 											/></a

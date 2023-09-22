@@ -7,7 +7,7 @@
 			id: 0,
 			name: 'Evident Stack App',
 			description: 'Evident Stack',
-			imgurl: 'src/lib/assets/images/evident-stack-link.png',
+			imgurl: 'images/evident-stack-link.png',
 			attribution: 'Jo Pearson',
 			product: true,
 			button: true,
