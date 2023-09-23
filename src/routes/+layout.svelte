@@ -84,7 +84,40 @@
 	// };
 
 	let open = false;
+
+	import { MetaTags } from 'svelte-meta-tags';
+	let title = 'Jo Pearson Designer';
+	let description =
+		"Hi. I'm Jo. 😊 I'm currently open for new employment opportunities or freelance projects. 😎";
 </script>
+
+<MetaTags
+	{title}
+	{description}
+	openGraph={{
+		type: 'website',
+		url: `https://jopearsondesigner.com/`,
+		title: `Jo Pearson Designer`,
+		description: `${description}`,
+		images: [
+			{
+				url: 'https://jopearsondesigner/images/OGJoPearsonDesigner.png',
+				width: 1200,
+				height: 630,
+				alt: `${title}`
+			}
+		],
+		site_name: 'Jo Pearson Designer'
+	}}
+	twitter={{
+		handle: '',
+		cardType: 'summary_large_image',
+		title: `${title}`,
+		description: `${description}`,
+		image: 'https://jopearsondesigner/images/OGJoPearsonDesigner.png',
+		imageAlt: `${title}`
+	}}
+/>
 
 <Navbar
 	class="!bg-zinc-950 sticky w-full z-50 top-0 left-0 border-b border-zinc-700"
@@ -451,7 +484,7 @@
 
 <div
 	id="about-me"
-	class="bg-white/[.03] my-[0px] xl:pt-[120px] lg:py-[64px] pt-[100px] lg:pb-0 pb-0 border-b border-zinc-800"
+	class="bg-white/[.06] my-[0px] xl:pt-[120px] lg:py-[64px] pt-[100px] lg:pb-0 pb-0 border-b border-zinc-800"
 >
 	<div class="lg:container mx-auto">
 		<div class="grid grid-cols-12">
