@@ -574,10 +574,12 @@
 									</div>
 								</div>
 								<div class="colp-3">
-									<p class="pb-4 font-bold">Creative professional specializing in UI/UX design.</p>
 									<p class="font-bold">
-										A unique enthusiasm and blend of talent with experience in both product designer
-										and frontend developer roles.
+										As a versatile creative professional, I specialize in UI/UX design, bringing a
+										unique blend of enthusiasm and expertise from my experience in both product
+										design and frontend development roles. My passion for creating intuitive user
+										experiences is matched by a track record of delivering aesthetically pleasing
+										and functional designs that elevate digital products.
 									</p>
 								</div>
 							</div>
@@ -595,17 +597,25 @@
 								</div>
 								<div class="colp-3">
 									<ul>
-										<li>Produced all UI design for our SAAS products and websites</li>
 										<li>
-											Produced all UX design for company e.g. wireframes, interactive prototypes
+											Single-handedly spearheaded all UI design efforts, leading to the development
+											of products that garnered pride and satisfaction from both investors and the
+											owner
 										</li>
 										<li>
-											Built the UI for our products and websites, responsible for all frontend
-											development
+											Led the complete UX design process, crafting high-quality wireframes and
+											interactive prototypes to elevate the user experience and drive product
+											optimization
 										</li>
 										<li>
-											Created all the company branding e.g. product logos, animations, and web
-											graphics
+											Assumed a leadership role as a Frontend Developer, responsible for coding the
+											entire UI of our products using SvelteKit. Achieved and maintained exceptional
+											productivity within a lean team of three
+										</li>
+										<li>
+											Crafted and executed the complete branding strategy, encompassing logos, style
+											guides, animations, and web graphics, to establish a distinctive and polished
+											corporate identity
 										</li>
 									</ul>
 								</div>
@@ -622,10 +632,17 @@
 								<div class="colp-3">
 									<ul>
 										<li>
-											Designed high-quality web banners for WGU (Western Governors University) for
-											marketing channels across the Internet
+											Proactively leveraged the pandemic period to excel in freelance projects
 										</li>
-										<li>Created professional animated versions of WGU web banners</li>
+										<li>
+											Contributed to WGU's pandemic resilience by creating top-tier web banners for
+											diverse online marketing channels, playing a pivotal role in maintaining the
+											company's profitability during challenging times
+										</li>
+										<li>
+											Successfully optimized and animated WGU's web banners, ensuring they remained
+											under 150 KB while maintaining a sharp and professional appearance
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -639,17 +656,20 @@
 								<div class="colp-3">
 									<ul>
 										<li>
-											Collaborated with UX strategists, managers and stakeholders on achieving
-											quarterly business goals
+											Played a pivotal role in stakeholder success by delivering high-quality
+											prototypes and both low-fidelity and high-fidelity wireframes for all website
+											applications, instrumental in meeting and surpassing quarterly business
+											objectives
 										</li>
 										<li>
-											Produced high-quality prototypes and low fidelity/high fidelity wireframes for
-											all website applications
+											Efficiently crafted captivating landing pages for the marketing team and
+											essential digital assets for the development team, consistently meeting tight
+											deadlines
 										</li>
-										<li>Designed marketing landing pages and digital assets for dev</li>
 										<li>
-											In role of <em>User Experience Prototyper</em> produced fully functional HTML prototypes
-											for the Executive Team
+											As a <em>User Experience Prototyper</em>, created and delivered fully
+											functional HTML prototypes to facilitate executive decision-making and drive
+											UX improvements
 										</li>
 									</ul>
 								</div>
@@ -664,11 +684,18 @@
 								<div class="colp-3">
 									<ul>
 										<li>
-											Produced wireframes and prototypes for development of new internal
-											applications
+											Collaborated closely with a fellow UX designer to efficiently deliver
+											wireframes and prototypes, enabling two development teams to maintain high
+											productivity levels
 										</li>
 										<li>
-											Conducted user interviews and user observation for new application design
+											Led user interviews and observations to inform the development of a
+											groundbreaking application, projected to deliver a 66% cost reduction by
+											optimizing real-time monitoring of reefer units on trucks
+										</li>
+										<li>
+											Delivered outstanding performance and achieved notable results during my
+											tenure at CR England, despite an unexpected layoff
 										</li>
 									</ul>
 								</div>
@@ -682,8 +709,14 @@
 								</div>
 								<div class="colp-3">
 									<ul>
-										<li>Designed new UI for internal applications</li>
-										<li>Coded new UI for internal applications</li>
+										<li>
+											Revamped and optimized the UI for internal applications, resulting in a
+											significant boost in developer team productivity
+										</li>
+										<li>
+											Rapidly acclimated to a new development environment, spearheading the
+											development of frontend code for cutting-edge business applications
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -697,9 +730,17 @@
 								<div class="colp-3">
 									<ul>
 										<li>
-											Created digital assets for new website and designed all marketing collateral
+											Created digital assets for the new website enabling the senior designer to
+											spend his time building the site
 										</li>
-										<li>Designed and coded all marketing email campaigns</li>
+										<li>
+											Designed all the marketing collateral supporting the company in staying
+											profitable
+										</li>
+										<li>
+											Saved the marketing department money by designing and also coding all of the
+											email campaigns
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -712,7 +753,14 @@
 								</div>
 								<div class="colp-3">
 									<ul>
-										<li>Interned with one of the best, award-winning creative agencies in Utah</li>
+										<li>
+											Accomplished earning an internship with one of the best, award-winning
+											creative agencies in Utah
+										</li>
+										<li>
+											Created a logo as my very first assignment that one client—the company
+											NaviTrust—ended up choosing as their company logo
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -751,15 +799,15 @@
 									<p>After Effects</p>
 								</div>
 								<div class="colp-1">
-									<p>Wireframes</p>
+									<p>Wireframing</p>
 									<p>Prototyping</p>
-									<p>Branding</p>
+									<p>Brand Identity</p>
 									<p>Illustration</p>
 								</div>
 								<div class="colp-1">
-									<p>HTML</p>
-									<p>CSS</p>
+									<p>HTML & CSS</p>
 									<p>Javascript</p>
+									<p>SvelteKit</p>
 									<p>Git</p>
 								</div>
 								<div class="colp-1" />
@@ -929,7 +977,7 @@
 		margin: 36pt auto;
 		position: relative;
 		width: 51pc;
-		height: 66pc;
+		/* height: 66pc; */
 		padding: 4pc;
 		background: #ffffff;
 	}
@@ -952,7 +1000,8 @@
 		margin: 36pt auto;
 		position: relative;
 		width: auto;
-		min-height: 66pc;
+		/* min-height: 66pc; */
+		min-height: 93pc;
 		height: auto;
 		background: #ffffff;
 	}
