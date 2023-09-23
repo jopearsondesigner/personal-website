@@ -101,7 +101,7 @@
 		description: `${description}`,
 		images: [
 			{
-				url: 'https://jopearsondesigner/images/OGJoPearsonDesigner.png',
+				url: 'https://jopearsondesigner.com/images/OGJoPearsonDesigner.png',
 				width: 1200,
 				height: 630,
 				alt: `${title}`
@@ -114,7 +114,7 @@
 		cardType: 'summary_large_image',
 		title: `${title}`,
 		description: `${description}`,
-		image: 'https://jopearsondesigner/images/OGJoPearsonDesigner.png',
+		image: 'https://jopearsondesigner.com/images/OGJoPearsonDesigner.png',
 		imageAlt: `${title}`
 	}}
 />
