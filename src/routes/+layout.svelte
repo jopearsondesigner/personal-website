@@ -730,16 +730,17 @@
 								<div class="colp-3">
 									<ul>
 										<li>
-											Created digital assets for the new website enabling the senior designer to
-											spend his time building the site
+											Produced essential digital assets for the new website project, allowing the
+											senior designer to focus on the site's construction and enhancing overall
+											project efficiency
 										</li>
 										<li>
-											Designed all the marketing collateral supporting the company in staying
-											profitable
+											Strategically crafted and executed comprehensive marketing collateral,
+											instrumental in sustaining the company's profitability
 										</li>
 										<li>
-											Saved the marketing department money by designing and also coding all of the
-											email campaigns
+											Reduced costs for the marketing department by independently designing and
+											coding all email campaigns
 										</li>
 									</ul>
 								</div>
@@ -1001,7 +1002,7 @@
 		position: relative;
 		width: auto;
 		/* min-height: 66pc; */
-		min-height: 93pc;
+		min-height: 96pc;
 		height: auto;
 		background: #ffffff;
 	}
