@@ -502,14 +502,13 @@
 			<div
 				class="xl:col-start-6 xl:col-span-6 lg:col-start-6 lg:col-span-6 col-start-1 col-span-12 flex flex-col items-start justify-center lg:py-16 py-0 lg:px-24 lg:px-4 px-10 pt-1 pb-16 space-y-4 text-zinc-400 lg:text-lg leading-normal"
 			>
-				<p>Hi. I'm Jo,</p>
+				<p>Hello, I'm Jo,</p>
 				<p>
-					I live in Salt Lake City and have been doing graphic design, web design and web
-					development for ten years, and UI design and UX design for over 5 years, and am passionate
-					about it. I'm currently open for new employment opportunities or freelance jobs, please
-					feel free to reach out to me.
+					I'm a seasoned graphic and web designer, specializing in UI/UX design with over a decade
+					of experience. I'm deeply passionate about creating user-centric digital experiences.
+					Currently open for exciting job opportunities or freelance projects.
 				</p>
-				<p>Thanks! <span class="text-2xl ml-3">😎</span></p>
+				<p>Let's connect! <span class="text-2xl ml-3">😎</span></p>
 				<span class="pt-4 px-[24px] flex lg:justify-start justify-center items-center w-full">
 					<Button
 						size="sm"
