@@ -495,7 +495,7 @@
 					<div
 						class="rounded-full border-[32px] border-white/[.06] w-auto h-auto overflow-hidden aspect-square"
 					>
-						<img src="images/jo-photo-3.jpg" alt="Jo Pearson" />
+						<img src="images/jo-photo-4.jpg" alt="Jo Pearson" />
 					</div>
 				</div>
 			</div>
@@ -504,9 +504,11 @@
 			>
 				<p>Hello, I'm Jo,</p>
 				<p>
-					I'm a seasoned graphic and web designer, specializing in UI/UX design with over a decade
-					of experience. I'm deeply passionate about creating user-centric digital experiences.
-					Currently open for exciting job opportunities or freelance projects.
+					As a versatile creative professional, I specialize in UI/UX design, bringing a unique
+					blend of enthusiasm and expertise from my experience in both product design and frontend
+					development roles. My passion for creating intuitive user experiences is matched by a
+					track record of delivering aesthetically pleasing and functional designs that elevate
+					digital products.
 				</p>
 				<p>Let's connect! <span class="text-2xl ml-3">😎</span></p>
 				<span class="pt-4 px-[24px] flex lg:justify-start justify-center items-center w-full">
@@ -597,24 +599,20 @@
 								<div class="colp-3">
 									<ul>
 										<li>
-											Single-handedly spearheaded all UI design efforts, leading to the development
-											of products that garnered pride and satisfaction from both investors and the
-											owner
+											Spearheaded UI design efforts, delivering products that garnered pride and
+											satisfaction from investors and the owner.
 										</li>
 										<li>
-											Led the complete UX design process, crafting high-quality wireframes and
-											interactive prototypes to elevate the user experience and drive product
-											optimization
+											Led complete UX design process, crafting high-quality wireframes and
+											interactive prototypes for an optimized user experience.
 										</li>
 										<li>
-											Assumed a leadership role as a Frontend Developer, responsible for coding the
-											entire UI of our products using SvelteKit. Achieved and maintained exceptional
-											productivity within a lean team of three
+											As a Frontend Developer, coded the entire UI of products using SvelteKit,
+											achieving and maintaining exceptional productivity.
 										</li>
 										<li>
-											Crafted and executed the complete branding strategy, encompassing logos, style
-											guides, animations, and web graphics, to establish a distinctive and polished
-											corporate identity
+											Executed branding strategy, establishing a distinctive corporate identity with
+											logos, style guides, animations, and web graphics.
 										</li>
 									</ul>
 								</div>
@@ -630,17 +628,13 @@
 								</div>
 								<div class="colp-3">
 									<ul>
+										<li>Excelled in freelance projects during the pandemic period.</li>
 										<li>
-											Proactively leveraged the pandemic period to excel in freelance projects
+											Contributed to WGU’s pandemic resilience by creating web banners for online
+											marketing channels, maintaining profitability.
 										</li>
 										<li>
-											Contributed to WGU's pandemic resilience by creating top-tier web banners for
-											diverse online marketing channels, playing a pivotal role in maintaining the
-											company's profitability during challenging times
-										</li>
-										<li>
-											Successfully optimized and animated WGU's web banners, ensuring they remained
-											under 150 KB while maintaining a sharp and professional appearance
+											Optimized and animated web banners, ensuring they remained under 150 KB.
 										</li>
 									</ul>
 								</div>
@@ -655,20 +649,16 @@
 								<div class="colp-3">
 									<ul>
 										<li>
-											Played a pivotal role in stakeholder success by delivering high-quality
-											prototypes and both low-fidelity and high-fidelity wireframes for all website
-											applications, instrumental in meeting and surpassing quarterly business
-											objectives
+											Delivered high-quality prototypes and wireframes, meeting and surpassing
+											quarterly business objectives.
 										</li>
 										<li>
-											Efficiently crafted captivating landing pages for the marketing team and
-											essential digital assets for the development team, consistently meeting tight
-											deadlines
+											Crafted captivating landing pages and digital assets for the marketing and
+											development teams, consistently meeting tight deadlines.
 										</li>
 										<li>
-											As a <em>User Experience Prototyper</em>, created and delivered fully
-											functional HTML prototypes to facilitate executive decision-making and drive
-											UX improvements
+											Created and delivered fully functional HTML prototypes to facilitate
+											decision-making and drive UX improvements.
 										</li>
 									</ul>
 								</div>
@@ -683,19 +673,14 @@
 								<div class="colp-3">
 									<ul>
 										<li>
-											Collaborated closely with a fellow UX designer to efficiently deliver
-											wireframes and prototypes, enabling two development teams to maintain high
-											productivity levels
+											Collaborated with a fellow UX designer to efficiently deliver wireframes and
+											prototypes.
 										</li>
 										<li>
-											Led user interviews and observations to inform the development of a
-											groundbreaking application, projected to deliver a 66% cost reduction by
-											optimizing real-time monitoring of reefer units on trucks
+											Led user interviews and observations, contributing to a groundbreaking
+											application’s development.
 										</li>
-										<li>
-											Delivered outstanding performance and achieved notable results during my
-											tenure at CR England, despite an unexpected layoff
-										</li>
+										<li>Achieved notable results despite an unexpected layoff.</li>
 									</ul>
 								</div>
 							</div>
@@ -709,12 +694,12 @@
 								<div class="colp-3">
 									<ul>
 										<li>
-											Revamped and optimized the UI for internal applications, resulting in a
-											significant boost in developer team productivity
+											Revamped and optimized the UI for internal applications, boosting developer
+											team productivity.
 										</li>
 										<li>
-											Rapidly acclimated to a new development environment, spearheading the
-											development of frontend code for cutting-edge business applications
+											Spearheaded the development of frontend code for cutting-edge business
+											applications.
 										</li>
 									</ul>
 								</div>
@@ -729,17 +714,16 @@
 								<div class="colp-3">
 									<ul>
 										<li>
-											Produced essential digital assets for the new website project, allowing the
-											senior designer to focus on the site's construction and enhancing overall
-											project efficiency
+											Produced digital assets for a new website project, enhancing project
+											efficiency.
 										</li>
 										<li>
 											Strategically crafted and executed comprehensive marketing collateral,
-											instrumental in sustaining the company's profitability
+											sustaining profitability.
 										</li>
 										<li>
-											Reduced costs for the marketing department by independently designing and
-											coding all email campaigns
+											Independently designed and coded all email campaigns, reducing marketing
+											costs.
 										</li>
 									</ul>
 								</div>
@@ -753,14 +737,8 @@
 								</div>
 								<div class="colp-3">
 									<ul>
-										<li>
-											Accomplished earning an internship with one of the best, award-winning
-											creative agencies in Utah
-										</li>
-										<li>
-											Created a logo as my very first assignment that one client—the company
-											NaviTrust—ended up choosing as their company logo
-										</li>
+										<li>Earned an internship with a prestigious creative agency in Utah.</li>
+										<li>Created a logo chosen by a client as their company logo.</li>
 									</ul>
 								</div>
 							</div>
@@ -787,30 +765,34 @@
 								<div class="colp-1">
 									<h2 class="subhead-grey">Skills</h2>
 								</div>
-								<div class="colp-1">
-									<p>Figma</p>
-									<p>Adobe XD</p>
-									<p>Sketch</p>
+							</div>
+							<div class="rowp">
+								<div class="colp-2">
+									<p class="uppercase"><strong>UI/UX Design</strong>:</p>
+									<p>Expertise in Figma, Adobe XD, and Sketch</p>
 								</div>
-								<div class="colp-1">
-									<p>Photoshop</p>
-									<p>Illustrator</p>
-									<p>InDesign</p>
-									<p>After Effects</p>
+								<div class="colp-2">
+									<p class="uppercase"><strong>Graphic Design</strong>:</p>
+									<p>Photoshop, Illustrator, After Effects, InDesign</p>
 								</div>
-								<div class="colp-1">
-									<p>Wireframing</p>
-									<p>Prototyping</p>
-									<p>Brand Identity</p>
-									<p>Illustration</p>
+								<div class="colp-2">
+									<p class="uppercase"><strong>Brand Identity</strong>:</p>
+									<p>Developing and maintaining brand guidelines</p>
 								</div>
-								<div class="colp-1">
-									<p>HTML & CSS</p>
-									<p>Javascript</p>
-									<p>SvelteKit</p>
-									<p>Git</p>
+							</div>
+							<div class="rowp">
+								<div class="colp-2">
+									<p class="uppercase"><strong>Wireframing & Prototyping</strong>:</p>
+									<p>Experienced in creating wireframes and interactive prototypes</p>
 								</div>
-								<div class="colp-1" />
+								<div class="colp-2">
+									<p class="uppercase"><strong>Illustration</strong>:</p>
+									<p>Creative illustrative work, including free-hand design and sketching</p>
+								</div>
+								<div class="colp-2">
+									<p class="uppercase"><strong>Frontend Development</strong>:</p>
+									<p>Proficient in HTML, CSS, JavaScript, SvelteKit</p>
+								</div>
 							</div>
 						</div>
 						<div class="m-bottom" />
@@ -1001,7 +983,7 @@
 		position: relative;
 		width: auto;
 		/* min-height: 66pc; */
-		min-height: 96pc;
+		min-height: 83pc;
 		height: auto;
 		background: #ffffff;
 	}
@@ -1012,6 +994,9 @@
 		list-style: none;
 	}
 	details[open] > summary {
+	}
+	strong {
+		font-weight: bold;
 	}
 	#resume-print {
 		padding: 4pc;
