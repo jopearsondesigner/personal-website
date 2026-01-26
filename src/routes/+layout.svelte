@@ -96,12 +96,12 @@
 	{description}
 	openGraph={{
 		type: 'website',
-		url: `https://jopearsondesigner.com/`,
+		url: `https://jo-pearson-portfolio.netlify.app/`,
 		title: `Jo Pearson Designer`,
 		description: `${description}`,
 		images: [
 			{
-				url: 'https://jopearsondesigner.com/images/social/OGJoPearsonDesigner.png',
+				url: 'https://jo-pearson-portfolio.netlify.app/images/social/OGJoPearsonDesigner.png',
 				width: 1200,
 				height: 630,
 				alt: `${title}`
@@ -114,7 +114,7 @@
 		cardType: 'summary_large_image',
 		title: `${title}`,
 		description: `${description}`,
-		image: 'https://jopearsondesigner.com/images/social/OGJoPearsonDesigner.png',
+		image: 'https://jo-pearson-portfolio.netlify.app/images/social/OGJoPearsonDesigner.png',
 		imageAlt: `${title}`
 	}}
 />
