@@ -495,7 +495,7 @@
 					<div
 						class="rounded-full border-[32px] border-white/[.06] w-auto h-auto overflow-hidden aspect-square"
 					>
-						<img src="images/jo-photo-4.jpg" alt="Jo Pearson" />
+						<img src="images/jo-5433.png" alt="Jo Pearson" />
 					</div>
 				</div>
 			</div>
