@@ -1,6 +1,10 @@
 {
 	"name": "flowbite-svelte-starter",
 	"version": "0.1.3",
+	"engines": {
+		"npm": ">=7.0.0",
+		"node": "18.x"
+	},
 	"description": "Flowbite-Svelte starter kit",
 	"author": {
 		"name": "Shinichi Okada",
@@ -60,10 +64,6 @@
 		"flowbite-svelte",
 		"tailwindcss"
 	],
-	"engines": {
-		"npm": ">=7.0.0",
-		"node": ">=16.0.0"
-	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/shinokada/flowbite-svelte-starter.git"
