@@ -6,7 +6,8 @@
 		{
 			id: 0,
 			name: 'Evident Stack Prototype',
-			description: 'Prototype for our SAAS product Evident Stack.',
+			description:
+				'Interactive product prototype for Evident Stack, used to explore core workflows and communicate UI direction before development. Helped align stakeholders early and reduce uncertainty before engineering began.',
 			imgurl: '/images/design-prototype.png',
 			attribution: 'Jo Pearson',
 			figma: true,
@@ -16,7 +17,8 @@
 		{
 			id: 1,
 			name: 'Evident Data Prototype',
-			description: 'Prototype for our Evident Data layer.',
+			description:
+				'Prototype for the data layer experience, designed to make complex system interactions easier to understand and navigate. Improved usability of abstract workflows by translating technical concepts into clear UI patterns.',
 			imgurl: '/images/data-prototype.png',
 			attribution: 'Jo Pearson',
 			figma: true,
@@ -26,7 +28,8 @@
 		{
 			id: 2,
 			name: 'Collaboration Feature Prototype',
-			description: 'Prototype for upcoming new feature for Evident Stack.',
+			description:
+				'Feature prototype focused on team collaboration, created to validate workflow ideas and improve cross-user interaction patterns. Helped identify usability gaps early and refine interaction flows before implementation.',
 			imgurl: '/images/collaboration-prototype.png',
 			attribution: 'Jo Pearson',
 			figma: true,
@@ -38,6 +41,15 @@
 
 <div id="prototypes">
 	<div class="bg-zinc-950">
+		<div
+			class="flex flex-wrap gap-2 mt-6 mb-4 justify-center text-[10px] md:text-xs uppercase tracking-widest"
+		>
+			<span class="px-2 py-1 bg-zinc-800 text-zinc-300 rounded">UI/UX</span>
+			<span class="px-2 py-1 bg-zinc-800 text-zinc-300 rounded">Figma</span>
+			<span class="px-2 py-1 bg-zinc-800 text-zinc-300 rounded">Interaction Design</span>
+			<span class="px-2 py-1 bg-zinc-800 text-zinc-300 rounded">Product Thinking</span>
+		</div>
+
 		<Carousel {images} showCaptions={true} />
 	</div>
 </div>

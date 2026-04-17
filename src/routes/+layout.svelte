@@ -262,13 +262,9 @@
 					Jo<span class="text-zinc-600">Pearson</span>
 				</h1>
 				<h2
-					class="self-center whitespace-nowrap lg:text-3xl text-xl font-medium tracking-widest font-header text-zinc-400 uppercase mt-3"
+					class="self-center text-center lg:text-3xl text-xl font-medium tracking-widest font-header text-zinc-400 uppercase mt-3"
 				>
-					UI<span class="text-zinc-700">Design</span><span class="text-zinc-800">—</span>UX<span
-						class="text-zinc-700">Design</span
-					><span class="text-zinc-800">—</span>Frontend<span
-						class="text-zinc-700 hidden md:inline-block">Development</span
-					><span class="text-zinc-700 inline-block md:hidden">Dev</span>
+					Graphic Designer • UI/UX Designer • Front-End Developer
 				</h2>
 				<span class="flex flex-row justify-center lg:mt-10 mt-4">
 					<Button
@@ -370,6 +366,11 @@
 				>
 					Branding & Design
 				</h2>
+				<p
+					class="text-zinc-400 text-xs md:text-sm mt-2 mb-6 text-center max-w-[180px] leading-snug"
+				>
+					Selected branding and motion work focused on simplifying complex SaaS systems.
+				</p>
 			{:else}
 				<a
 					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] hover:bg-white/[.0666] transition duration-200 ease-in"
@@ -399,6 +400,11 @@
 				>
 					Wireframes & Prototypes
 				</h2>
+				<p
+					class="text-zinc-400 text-xs md:text-sm mt-2 mb-6 text-center max-w-[180px] leading-snug"
+				>
+					Interactive product concepts used to test workflows and clarify UI direction.
+				</p>
 			{:else}
 				<a
 					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] hover:bg-white/[.0666] transition duration-200 ease-in"
@@ -429,6 +435,12 @@
 				>
 					Website Projects
 				</h2>
+				<p
+					class="text-zinc-400 text-xs md:text-sm mt-2 mb-6 text-center max-w-[190px] leading-snug"
+				>
+					Live website work combining visual design, front-end implementation, and clear product
+					communication.
+				</p>
 			{:else}
 				<a
 					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] hover:bg-white/[.0666] transition duration-200 ease-in"
@@ -458,6 +470,12 @@
 				>
 					App Projects
 				</h2>
+				<p
+					class="text-zinc-400 text-xs md:text-sm mt-2 mb-6 text-center max-w-[190px] leading-snug"
+				>
+					Product-focused work combining UI design, front-end development, and complex system
+					thinking.
+				</p>
 			{:else}
 				<a
 					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] hover:bg-white/[.0666] transition duration-200 ease-in"
@@ -499,25 +517,83 @@
 					</div>
 				</div>
 			</div>
+
 			<div
-				class="xl:col-start-6 xl:col-span-6 lg:col-start-6 lg:col-span-6 col-start-1 col-span-12 flex flex-col items-start justify-center lg:py-16 py-0 lg:px-24 lg:px-4 px-10 pt-1 pb-16 space-y-4 text-zinc-400 lg:text-lg leading-normal"
+				class="xl:col-start-6 xl:col-span-6 lg:col-start-6 lg:col-span-6 col-start-1 col-span-12 flex flex-col items-start justify-center lg:py-16 py-0 lg:px-24 px-10 pt-1 pb-16 text-zinc-400 lg:text-lg leading-normal"
 			>
-				<p>Hello, I'm Jo,</p>
-				<p>
-					As a versatile creative professional, I specialize in UI/UX design, bringing a unique
-					blend of enthusiasm and expertise from my experience in both product design and frontend
-					development roles. My passion for creating intuitive user experiences is matched by a
-					track record of delivering aesthetically pleasing and functional designs that elevate
-					digital products.
-				</p>
-				<p>Let's connect! <span class="text-2xl ml-3">😎</span></p>
-				<span class="pt-4 px-[24px] flex lg:justify-start justify-center items-center w-full">
+				<div class="w-full max-w-2xl text-zinc-400 text-base leading-relaxed space-y-4">
+					<p>Hello, I’m Jo.</p>
+
+					<p>
+						I’m a designer and front-end developer with experience across graphic design, UI/UX,
+						marketing, and web. My strength is turning ideas into polished, production-ready
+						work—whether that means shaping a brand, designing a user interface, or building the
+						front end.
+					</p>
+
+					<p>
+						I’ve worked on SaaS products, marketing sites, interactive prototypes, and digital
+						campaigns, with a focus on clarity, usability, and visual quality.
+					</p>
+
+					<p>
+						Right now, I’m looking for hands-on roles where I can contribute quickly—especially in
+						graphic design, web design, UI/UX, and front-end work.
+					</p>
+
+					<p>If you’d like to connect, I’d love to hear from you.</p>
+				</div>
+
+				<div class="w-full flex flex-wrap gap-2 mt-8">
+					<span
+						class="px-3 py-1 bg-zinc-800 text-zinc-300 text-[11px] md:text-xs uppercase tracking-widest rounded"
+						>Figma</span
+					>
+					<span
+						class="px-3 py-1 bg-zinc-800 text-zinc-300 text-[11px] md:text-xs uppercase tracking-widest rounded"
+						>SvelteKit</span
+					>
+					<span
+						class="px-3 py-1 bg-zinc-800 text-zinc-300 text-[11px] md:text-xs uppercase tracking-widest rounded"
+						>React</span
+					>
+					<span
+						class="px-3 py-1 bg-zinc-800 text-zinc-300 text-[11px] md:text-xs uppercase tracking-widest rounded"
+						>Tailwind</span
+					>
+					<span
+						class="px-3 py-1 bg-zinc-800 text-zinc-300 text-[11px] md:text-xs uppercase tracking-widest rounded"
+						>HTML</span
+					>
+					<span
+						class="px-3 py-1 bg-zinc-800 text-zinc-300 text-[11px] md:text-xs uppercase tracking-widest rounded"
+						>CSS</span
+					>
+					<span
+						class="px-3 py-1 bg-zinc-800 text-zinc-300 text-[11px] md:text-xs uppercase tracking-widest rounded"
+						>JavaScript</span
+					>
+					<span
+						class="px-3 py-1 bg-zinc-800 text-zinc-300 text-[11px] md:text-xs uppercase tracking-widest rounded"
+						>Design Systems</span
+					>
+					<span
+						class="px-3 py-1 bg-zinc-800 text-zinc-300 text-[11px] md:text-xs uppercase tracking-widest rounded"
+						>Prototyping</span
+					>
+					<span
+						class="px-3 py-1 bg-zinc-800 text-zinc-300 text-[11px] md:text-xs uppercase tracking-widest rounded"
+						>Branding</span
+					>
+				</div>
+
+				<span class="pt-8 flex lg:justify-start justify-center items-center w-full">
 					<Button
 						size="sm"
 						class="flex-none !ring-1 !ring-[#ffebb1] !bg-gradient-to-t !from-[#ffebb1] !via-[#ffebb1] !via-20% !to-[#fff] hover:!bg-gradient-to-t hover:!from-[#ffebb1] hover:!via-[#ffebb1] hover:!via-80% hover:!to-[#fff] !text-zinc-600 !text-xs uppercase !rounded"
 						on:click={() => (formModal = true)}>Contact me</Button
-					></span
-				>
+					>
+				</span>
 			</div>
 		</div>
 
@@ -576,16 +652,16 @@
 								</div>
 								<div class="colp-3">
 									<p class="font-bold">
-										As a versatile creative professional, I specialize in UI/UX design, bringing a
-										unique blend of enthusiasm and expertise from my experience in both product
-										design and frontend development roles. My passion for creating intuitive user
-										experiences is matched by a track record of delivering aesthetically pleasing
-										and functional designs that elevate digital products.
+										Designer and front-end developer with experience across graphic design, UI/UX,
+										marketing, and web. Strong at turning ideas into polished, production-ready work
+										across brands, interfaces, prototypes, and front-end builds.
 									</p>
 								</div>
 							</div>
 						</div>
+
 						<div class="m-bottom" />
+
 						<div id="experience-print">
 							<div class="rowp">
 								<div class="colp-1">
@@ -599,24 +675,25 @@
 								<div class="colp-3">
 									<ul>
 										<li>
-											Spearheaded UI design efforts, delivering products that garnered pride and
-											satisfaction from investors and the owner.
+											Led UI design for a SaaS product, creating interfaces that made complex
+											event-driven workflows more usable and understandable.
 										</li>
 										<li>
-											Led complete UX design process, crafting high-quality wireframes and
-											interactive prototypes for an optimized user experience.
+											Owned wireframing, prototyping, branding, and front-end implementation using
+											SvelteKit.
 										</li>
 										<li>
-											As a Frontend Developer, coded the entire UI of products using SvelteKit,
-											achieving and maintaining exceptional productivity.
+											Built marketing and product assets including websites, logos, animations, and
+											design system components.
 										</li>
 										<li>
-											Executed branding strategy, establishing a distinctive corporate identity with
-											logos, style guides, animations, and web graphics.
+											Worked across design and development, helping translate technical concepts
+											into polished user-facing experiences.
 										</li>
 									</ul>
 								</div>
 							</div>
+
 							<div class="rowp">
 								<div class="colp-1">
 									<div class="colp-1">&nbsp;</div>
@@ -628,17 +705,22 @@
 								</div>
 								<div class="colp-3">
 									<ul>
-										<li>Excelled in freelance projects during the pandemic period.</li>
 										<li>
-											Contributed to WGU’s pandemic resilience by creating web banners for online
-											marketing channels, maintaining profitability.
+											Delivered freelance design and front-end work across web, branding, and
+											digital marketing projects.
 										</li>
 										<li>
-											Optimized and animated web banners, ensuring they remained under 150 KB.
+											Created web banners and marketing assets for online campaigns, including work
+											for WGU.
+										</li>
+										<li>
+											Optimized and animated digital assets to meet technical constraints without
+											sacrificing visual quality.
 										</li>
 									</ul>
 								</div>
 							</div>
+
 							<div class="rowp">
 								<div class="colp-1">&nbsp;</div>
 								<div class="colp-2">
@@ -649,20 +731,21 @@
 								<div class="colp-3">
 									<ul>
 										<li>
-											Delivered high-quality prototypes and wireframes, meeting and surpassing
-											quarterly business objectives.
+											Designed interactive prototypes and wireframes for user-facing digital
+											experiences.
 										</li>
 										<li>
-											Crafted captivating landing pages and digital assets for the marketing and
-											development teams, consistently meeting tight deadlines.
+											Created landing pages and digital assets for marketing and development teams
+											in a fast-paced environment.
 										</li>
 										<li>
-											Created and delivered fully functional HTML prototypes to facilitate
-											decision-making and drive UX improvements.
+											Built functional HTML prototypes that helped teams evaluate ideas and improve
+											UX direction.
 										</li>
 									</ul>
 								</div>
 							</div>
+
 							<div class="rowp">
 								<div class="colp-1">&nbsp;</div>
 								<div class="colp-2">
@@ -673,17 +756,17 @@
 								<div class="colp-3">
 									<ul>
 										<li>
-											Collaborated with a fellow UX designer to efficiently deliver wireframes and
-											prototypes.
+											Created wireframes and prototypes in collaboration with another UX designer
+											for a transportation-related application.
 										</li>
 										<li>
-											Led user interviews and observations, contributing to a groundbreaking
-											application’s development.
+											Conducted user research through interviews and observations to inform product
+											decisions.
 										</li>
-										<li>Achieved notable results despite an unexpected layoff.</li>
 									</ul>
 								</div>
 							</div>
+
 							<div class="rowp">
 								<div class="colp-1">&nbsp;</div>
 								<div class="colp-2">
@@ -694,16 +777,14 @@
 								<div class="colp-3">
 									<ul>
 										<li>
-											Revamped and optimized the UI for internal applications, boosting developer
-											team productivity.
+											Improved internal application UI, helping support more efficient workflows for
+											developers and business users.
 										</li>
-										<li>
-											Spearheaded the development of frontend code for cutting-edge business
-											applications.
-										</li>
+										<li>Contributed front-end code for internal business applications.</li>
 									</ul>
 								</div>
 							</div>
+
 							<div class="rowp">
 								<div class="colp-1">&nbsp;</div>
 								<div class="colp-2">
@@ -714,20 +795,17 @@
 								<div class="colp-3">
 									<ul>
 										<li>
-											Produced digital assets for a new website project, enhancing project
-											efficiency.
+											Designed digital assets and web graphics for marketing and website projects.
 										</li>
 										<li>
-											Strategically crafted and executed comprehensive marketing collateral,
-											sustaining profitability.
+											Created collateral and email campaigns that supported broader marketing
+											efforts.
 										</li>
-										<li>
-											Independently designed and coded all email campaigns, reducing marketing
-											costs.
-										</li>
+										<li>Designed and coded HTML emails.</li>
 									</ul>
 								</div>
 							</div>
+
 							<div class="rowp">
 								<div class="colp-1">&nbsp;</div>
 								<div class="colp-2">
@@ -737,13 +815,18 @@
 								</div>
 								<div class="colp-3">
 									<ul>
-										<li>Earned an internship with a prestigious creative agency in Utah.</li>
-										<li>Created a logo chosen by a client as their company logo.</li>
+										<li>
+											Supported agency design work and created identity concepts for client
+											projects.
+										</li>
+										<li>Designed a logo that was selected by a client as their company logo.</li>
 									</ul>
 								</div>
 							</div>
 						</div>
+
 						<div class="m-bottom" />
+
 						<div id="education-print">
 							<div class="rowp">
 								<div class="colp-1">
@@ -752,14 +835,15 @@
 								<div class="colp-2">
 									<h2>Bachelor's of Science Graphic Design</h2>
 									<h3>Art Institute of Salt Lake City</h3>
-									<!--                <p>2013</p>-->
 								</div>
 								<div class="colp-3">
 									<p>&nbsp;</p>
 								</div>
 							</div>
 						</div>
+
 						<div class="m-bottom" />
+
 						<div id="skills-print">
 							<div class="rowp">
 								<div class="colp-1">
@@ -769,32 +853,33 @@
 							<div class="rowp">
 								<div class="colp-2">
 									<p class="uppercase"><strong>UI/UX Design</strong>:</p>
-									<p>Expertise in Figma, Adobe XD, and Sketch</p>
+									<p>Figma, wireframing, interactive prototyping, user flows</p>
 								</div>
 								<div class="colp-2">
 									<p class="uppercase"><strong>Graphic Design</strong>:</p>
 									<p>Photoshop, Illustrator, After Effects, InDesign</p>
 								</div>
 								<div class="colp-2">
-									<p class="uppercase"><strong>Brand Identity</strong>:</p>
-									<p>Developing and maintaining brand guidelines</p>
+									<p class="uppercase"><strong>Branding</strong>:</p>
+									<p>Logo design, visual systems, brand guides, motion assets</p>
 								</div>
 							</div>
 							<div class="rowp">
 								<div class="colp-2">
-									<p class="uppercase"><strong>Wireframing & Prototyping</strong>:</p>
-									<p>Experienced in creating wireframes and interactive prototypes</p>
-								</div>
-								<div class="colp-2">
-									<p class="uppercase"><strong>Illustration</strong>:</p>
-									<p>Creative illustrative work, including free-hand design and sketching</p>
-								</div>
-								<div class="colp-2">
 									<p class="uppercase"><strong>Frontend Development</strong>:</p>
-									<p>Proficient in HTML, CSS, JavaScript, SvelteKit</p>
+									<p>HTML, CSS, JavaScript, SvelteKit, React, Tailwind</p>
+								</div>
+								<div class="colp-2">
+									<p class="uppercase"><strong>Web Design</strong>:</p>
+									<p>Marketing sites, responsive design, landing pages, digital campaigns</p>
+								</div>
+								<div class="colp-2">
+									<p class="uppercase"><strong>Design Systems</strong>:</p>
+									<p>Component thinking, consistency, scalable UI patterns</p>
 								</div>
 							</div>
 						</div>
+
 						<div class="m-bottom" />
 					</article>
 				</div>

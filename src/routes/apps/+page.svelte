@@ -7,7 +7,7 @@
 			id: 0,
 			name: 'Evident Stack App',
 			description:
-				"Over a dedicated three-year period, I spearheaded the comprehensive development of Evident Stack, a cutting-edge SAAS product. My responsibilities encompassed UI/UX design, frontend development, and driving the product's evolution. Evident Stack, an open-source endeavor, empowers the design, implementation, and operation of event-based information systems based on event sourcing and domain-driven design. The product comprises distinct 'layers,' with the inaugural layer, Evident Design, inspired by Adam Dymitruk's 'Event Modeling' concept.",
+				'Led the design and front-end development of Evident Stack, a SaaS platform for building event-driven systems. Owned the UI from concept through implementation, creating a scalable interface that simplified complex domain modeling and system workflows. Helped translate highly technical architecture into a usable product experience.',
 			imgurl: '/images/evident-stack-link.png',
 			attribution: 'Jo Pearson',
 			product: true,
@@ -19,6 +19,16 @@
 
 <div id="apps">
 	<div class="bg-zinc-950">
+		<div
+			class="flex flex-wrap gap-2 mt-6 mb-4 justify-center text-[10px] md:text-xs uppercase tracking-widest"
+		>
+			<span class="px-2 py-1 bg-zinc-800 text-zinc-300 rounded">UI/UX</span>
+			<span class="px-2 py-1 bg-zinc-800 text-zinc-300 rounded">Front-End</span>
+			<span class="px-2 py-1 bg-zinc-800 text-zinc-300 rounded">SvelteKit</span>
+			<span class="px-2 py-1 bg-zinc-800 text-zinc-300 rounded">SaaS</span>
+			<span class="px-2 py-1 bg-zinc-800 text-zinc-300 rounded">System Design</span>
+		</div>
+
 		<Carousel {images} showCaptions={true} />
 	</div>
 </div>

@@ -7,7 +7,7 @@
 			id: 0,
 			name: 'Evident Stack Website',
 			description:
-				'Website that I built for our SAAS product, Evident Stack. I did all of the design and development for it, including wireframes, custom icons, graphics, and animations.',
+				'Designed and built the marketing website for Evident Stack, translating a complex SaaS product into a clear, polished web experience. Improved how the product was communicated publicly, making it easier for users and stakeholders to understand the platform’s value.',
 			imgurl: '/images/evident-stack-website.svg',
 			attribution: 'Jo Pearson',
 			button: true,
@@ -16,7 +16,8 @@
 		{
 			id: 1,
 			name: 'Evident Systems Website',
-			description: 'Website for Evident Systems LLC, I built it within two days.',
+			description:
+				'Designed and developed the company website for Evident Systems, delivering a complete build in under two days. Quickly established a professional online presence and enabled the company to present itself credibly to clients and partners.',
 			imgurl: '/images/evident-systems-website.svg',
 			attribution: 'Jo Pearson',
 			button: true,
@@ -27,6 +28,15 @@
 
 <div id="websites">
 	<div class="bg-zinc-950">
+		<div
+			class="flex flex-wrap gap-2 mt-6 mb-4 justify-center text-[10px] md:text-xs uppercase tracking-widest"
+		>
+			<span class="px-2 py-1 bg-zinc-800 text-zinc-300 rounded">Web Design</span>
+			<span class="px-2 py-1 bg-zinc-800 text-zinc-300 rounded">Front-End</span>
+			<span class="px-2 py-1 bg-zinc-800 text-zinc-300 rounded">Responsive</span>
+			<span class="px-2 py-1 bg-zinc-800 text-zinc-300 rounded">Marketing</span>
+		</div>
+
 		<Carousel {images} showCaptions={true} />
 	</div>
 </div>
