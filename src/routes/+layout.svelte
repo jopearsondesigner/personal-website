@@ -53,19 +53,19 @@
 		{
 			id: 0,
 			name: 'Jo Pearson Designer',
-			imgurl: 'images/slide-logo.svg',
+			imgurl: '/images/slide-logo.svg',
 			attribution: 'Jo Pearson'
 		},
 		{
 			id: 1,
 			name: 'Evident Stack Code',
-			imgurl: 'images/slide-evident-stack.png',
+			imgurl: '/images/slide-evident-stack.png',
 			attribution: 'Jo Pearson'
 		},
 		{
 			id: 2,
 			name: 'Evident Database Animation',
-			imgurl: 'images/DatabaseAnimation-1600x1064.gif',
+			imgurl: '/images/DatabaseAnimation-1600x1064.gif',
 			attribution: 'Jo Pearson'
 		}
 	];
