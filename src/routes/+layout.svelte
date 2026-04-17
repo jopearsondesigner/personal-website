@@ -352,11 +352,14 @@
 		</div>
 	</div>
 
-	<div id="portfolio" class="grid grid-cols-4 gap-4 sm:container mx-auto lg:pt-24 pt-24 px-4">
+	<div
+		id="portfolio"
+		class="grid grid-cols-2 lg:grid-cols-4 gap-y-10 gap-x-4 sm:container mx-auto lg:pt-24 pt-16 px-4"
+	>
 		<div class="col-span-1 flex flex-col items-center justify-center">
 			{#if path === '/branding'}
 				<a
-					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] bg-white/[.0666] pointer-events-none"
+					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[64px] h-[64px] bg-white/[.0666] pointer-events-none"
 					href="/branding"
 				>
 					<img src="images/icon-branding-active.svg" alt="Branding Icon" class="h-20 w-auto" />
@@ -367,13 +370,13 @@
 					Branding & Design
 				</h2>
 				<p
-					class="text-zinc-400 text-xs md:text-sm mt-2 mb-6 text-center max-w-[180px] leading-snug"
+					class="hidden lg:block text-zinc-400 text-xs md:text-sm mt-2 mb-6 text-center max-w-[180px] leading-snug"
 				>
 					Selected branding and motion work focused on simplifying complex SaaS systems.
 				</p>
 			{:else}
 				<a
-					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] hover:bg-white/[.0666] transition duration-200 ease-in"
+					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[64px] h-[64px] hover:bg-white/[.0666] transition duration-200 ease-in"
 					href="/branding#portfolio"
 				>
 					<img src="images/icon-branding.svg" alt="Prototypes Icon" class="h-20 w-auto" />
@@ -390,7 +393,7 @@
 		<div class="col-span-1 flex flex-col items-center justify-center">
 			{#if path === '/prototypes'}
 				<a
-					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] bg-white/[.0666] pointer-events-none"
+					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[64px] h-[64px] bg-white/[.0666] pointer-events-none"
 					href="/prototypes"
 				>
 					<img src="images/icon-prototypes-active.svg" alt="Prototypes Icon" class="h-20 w-auto" />
@@ -401,13 +404,13 @@
 					Wireframes & Prototypes
 				</h2>
 				<p
-					class="text-zinc-400 text-xs md:text-sm mt-2 mb-6 text-center max-w-[180px] leading-snug"
+					class="hidden lg:block text-zinc-400 text-xs md:text-sm mt-2 mb-6 text-center max-w-[180px] leading-snug"
 				>
 					Interactive product concepts used to test workflows and clarify UI direction.
 				</p>
 			{:else}
 				<a
-					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] hover:bg-white/[.0666] transition duration-200 ease-in"
+					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[64px] h-[64px] hover:bg-white/[.0666] transition duration-200 ease-in"
 					href="/prototypes#portfolio"
 				>
 					<img src="images/icon-prototypes.svg" alt="Prototypes Icon" class="h-20 w-auto" />
@@ -425,7 +428,7 @@
 		<div class="col-span-1 flex flex-col items-center justify-center">
 			{#if path === '/websites'}
 				<a
-					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] bg-white/[.0666] pointer-events-none"
+					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[64px] h-[64px] bg-white/[.0666] pointer-events-none"
 					href="/websites"
 				>
 					<img src="images/icon-websites-active.svg" alt="Websites Icon" class="h-20 w-auto" />
@@ -436,14 +439,14 @@
 					Website Projects
 				</h2>
 				<p
-					class="text-zinc-400 text-xs md:text-sm mt-2 mb-6 text-center max-w-[190px] leading-snug"
+					class="hidden lg:block text-zinc-400 text-xs md:text-sm mt-2 mb-6 text-center max-w-[190px] leading-snug"
 				>
 					Live website work combining visual design, front-end implementation, and clear product
 					communication.
 				</p>
 			{:else}
 				<a
-					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] hover:bg-white/[.0666] transition duration-200 ease-in"
+					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[64px] h-[64px] hover:bg-white/[.0666] transition duration-200 ease-in"
 					href="/websites#portfolio"
 				>
 					<img src="images/icon-websites.svg" alt="Websites Icon" class="h-20 w-auto" />
@@ -460,7 +463,7 @@
 		<div class="col-span-1 flex flex-col items-center justify-center">
 			{#if path === '/apps'}
 				<a
-					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] bg-white/[0.0666] pointer-events-none"
+					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[64px] h-[64px] bg-white/[0.0666] pointer-events-none"
 					href="/apps"
 				>
 					<img src="images/icon-apps-active.svg" alt="Apps Icon" class="h-20 w-auto" />
@@ -471,14 +474,14 @@
 					App Projects
 				</h2>
 				<p
-					class="text-zinc-400 text-xs md:text-sm mt-2 mb-6 text-center max-w-[190px] leading-snug"
+					class="hidden lg:block text-zinc-400 text-xs md:text-sm mt-2 mb-6 text-center max-w-[190px] leading-snug"
 				>
 					Product-focused work combining UI design, front-end development, and complex system
 					thinking.
 				</p>
 			{:else}
 				<a
-					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] hover:bg-white/[.0666] transition duration-200 ease-in"
+					class="flex items-center justify-center rounded-full lg:w-[100px] lg:h-[100px] w-[64px] h-[64px] hover:bg-white/[.0666] transition duration-200 ease-in"
 					href="/apps#portfolio"
 				>
 					<img src="images/icon-apps.svg" alt="Apps Icon" class="h-20 w-auto" />
