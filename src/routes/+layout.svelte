@@ -264,7 +264,7 @@
 				<h2
 					class="self-center text-center lg:text-3xl text-xl font-medium tracking-widest font-header text-zinc-400 uppercase mt-3"
 				>
-					Graphic Designer • UI/UX Designer • Front-End Developer
+					Front-End Designer who builds production-ready UI
 				</h2>
 				<span class="flex flex-row justify-center lg:mt-10 mt-4">
 					<Button
