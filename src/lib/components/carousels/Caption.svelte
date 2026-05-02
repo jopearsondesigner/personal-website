@@ -1,12 +1,17 @@
+<!-- Caption.svelte -->
 <script>
 	export let caption = '';
 	export let description = '';
+
 	export let hClass =
-		'lg:text-[38px] text-2xl text-zinc-500 font-header font-medium uppercase tracking-widest leading-normal mb-1 leading-normal lg:text-left text-center';
+		'lg:text-[32px] text-2xl text-[#ffebb1] font-header font-medium uppercase tracking-widest leading-tight mb-4 lg:text-left text-center';
+
 	export let captionClass = '';
+
 	export let textClass =
-		'lg:col-start-2 lg:col-span-11 col-start-1 col-span-12 lg:text-base text-sm lg:pt-12 pt-10 lg:pb-6 pb-10 px-4';
-	export let pClass = 'lg:max-w-[553px] text-zinc-200 leading-normal lg:text-left text-center';
+		'lg:col-start-2 lg:col-span-7 col-start-1 col-span-12 lg:text-base text-sm lg:pt-10 pt-8 lg:pb-8 pb-8 px-4';
+
+	export let pClass = 'lg:max-w-[620px] text-zinc-200 leading-relaxed lg:text-left text-center';
 </script>
 
 <div class={captionClass}>
@@ -14,7 +19,9 @@
 		<h3 class={hClass}>
 			{caption}
 		</h3>
-		<p id="caption" class={pClass}>{description}</p>
+		<p id="caption" class={pClass}>
+			{description}
+		</p>
 	</span>
 </div>
 

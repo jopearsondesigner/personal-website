@@ -1,3 +1,4 @@
+<!-- Carousel.svelte -->
 <script lang="ts">
 	import classNames from 'classnames';
 	import { twMerge } from 'tailwind-merge';
@@ -29,11 +30,11 @@
 	export let indicatorClass = 'w-2 h-2 rounded-full bg-gray-500 hover:bg-gray-300 opacity-60';
 	let indicatorCls = twMerge(indicatorClass, $$props.classIndicator);
 	// Slide
-	export let slideClass = 'flex items-center justify-center';
+	export let slideClass = 'flex h-full w-full items-center justify-center';
 	let slideCls = twMerge(slideClass, $$props.classSlide);
 	// Img
 	export let imgFit = 'cover';
-	export let imgClass = `object-${imgFit} ${imgFit === 'cover' && 'w-auto'} lg:h-[600px] h-[370px]`;
+	export let imgClass = `h-full w-full object-contain object-center contrast-110 saturate-110 brightness-95`;
 	let imgCls = twMerge(imgClass, $$props.classImg);
 	// Thumbnail
 	export let thumbClass = 'object-cover object-center p-0 h-full rounded-lg';
@@ -103,7 +104,9 @@
 		{/if}
 
 		<div {id} class="lg:col-span-11 col-span-12 relative">
-			<div class="overflow-hidden lg:max-h-[600px] max-h-[370px]">
+			<div
+				class="overflow-hidden lg:h-[600px] h-[370px] rounded-xl ring-1 ring-white/10 bg-black/40"
+			>
 				<Slide
 					image={image.imgurl}
 					altTag={image.name}
@@ -112,42 +115,19 @@
 					imgClass={imgCls}
 				>
 					{#if image.button === true}
-						<div class="absolute grid grid-rows-3 w-full h-full">
-							<div class="row-start-2 flex flex-col items-center justify-center">
-								<span
-									class="flex flex-col items-center justify-center bg-black/[84%] px-12 py-16 rounded-lg"
-								>
-									<p class="text-base text-center text-zinc-300 mb-4">Please click on the link:</p>
-									<Button
-										size="lg"
-										class=" shadow-xl !ring-1 !ring-[#ffebb1] !bg-gradient-to-t !from-[#ffebb1] !via-[#ffebb1] !via-20% !to-[#fff] hover:!bg-gradient-to-t hover:!from-[#ffebb1] hover:!via-[#ffebb1] hover:!via-80% hover:!to-[#fff] !text-zinc-600 !text-xs uppercase !rounded"
-										on:click
-										href={image.href}
-										target="_blank">Visit {image.name}<span class="ml-1 text-xl">💗</span></Button
-									>
-									{#if image.product === true}
-										<span class="mx-auto text-[45px] text-yellow-100 text-center mt-8">⚠️</span>
-										<p class="text-lg text-center text-zinc-100 px-4 mx-auto">
-											Please be aware that my GitHub branches updating and fixing the UI have not
-											yet been merged.
-											<span class="ml-1 text-2xl">😏</span>
-										</p>
-									{/if}
-								</span>
-							</div>
-							{#if image.figma === true}
-								<div class="row-start-3 lg:pb-2 pb-2 pt-[104px] px-4 lg:mt-0 -mt-[0px]">
-									<div class="flex items-end justify-center">
-										<span class="flex items-center">
-											<p class="text-sm text-zinc-400 mr-2">Made with</p>
-											<a href="https://www.figma.com"
-												><img src="images/figma-logo.svg" alt="Figma logo" class="lg:h-10 h-6" /></a
-											>
-										</span>
-									</div>
-								</div>
-							{/if}
-						</div>
+						<a
+							href={image.href}
+							target="_blank"
+							rel="noopener noreferrer"
+							class="absolute inset-0 z-20 flex items-center justify-center bg-black/0 opacity-0 transition duration-300 ease-out hover:bg-black/30 hover:opacity-100"
+							aria-label={`View ${image.name}`}
+						>
+							<span
+								class="rounded border border-[#ffebb1] bg-gradient-to-t from-[#ffebb1] via-[#ffebb1] to-white px-6 py-3 text-xs font-semibold uppercase tracking-wide text-zinc-700 shadow-lg transition duration-200 hover:scale-[1.03]"
+							>
+								View Project
+							</span>
+						</a>
 					{/if}
 					{#if image.lottie === true}
 						<div class="absolute grid grid-rows-3 w-full bg-white px-4 py-4">

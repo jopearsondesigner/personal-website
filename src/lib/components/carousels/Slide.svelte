@@ -1,3 +1,4 @@
+<!-- Slide.svelte -->
 <script lang="ts">
 	import classNames from 'classnames';
 	export let image = '';

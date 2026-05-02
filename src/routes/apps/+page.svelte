@@ -1,3 +1,4 @@
+<!--apps/+page.svelte-->
 <script lang="ts">
 	import '../../app.css';
 	import Carousel from '$lib/components/carousels/Carousel.svelte';
