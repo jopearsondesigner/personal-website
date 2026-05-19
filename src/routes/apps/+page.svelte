@@ -1,4 +1,4 @@
-<!--apps/+page.svelte-->
+<!--src/routes/apps/+page.svelte-->
 <script lang="ts">
 	import '../../app.css';
 	import Carousel from '$lib/components/carousels/Carousel.svelte';
@@ -6,6 +6,17 @@
 	export const images = [
 		{
 			id: 0,
+			name: 'InnerAnchor',
+			description:
+				'A mobile-first emotional regulation micro-tool designed to reduce cognitive load during moments of overwhelm, rejection sensitivity, and nervous-system activation. Designed the UX flow, interaction pacing, interface copy, visual direction, and front-end implementation using SvelteKit and CSS.',
+			imgurl: '/images/the-validation-movement-inner-anchor.png',
+			attribution: 'Jo Pearson',
+			product: true,
+			button: true,
+			href: 'https://the-validation-movement.netlify.app/inner-anchor'
+		},
+		{
+			id: 1,
 			name: 'Evident Stack App',
 			description:
 				'Led the design and front-end development of Evident Stack, a SaaS platform for building event-driven systems. Owned the UI from concept through implementation, creating a scalable interface that simplified complex domain modeling and system workflows. Helped translate highly technical architecture into a usable product experience.',
