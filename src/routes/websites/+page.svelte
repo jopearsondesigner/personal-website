@@ -32,7 +32,7 @@
 			imgurl: '/images/evident-stack-website.svg',
 			attribution: 'Jo Pearson',
 			button: true,
-			href: 'https://evidentstack.com/'
+			href: 'https://evident-stack.netlify.app/'
 		},
 		{
 			id: 3,
