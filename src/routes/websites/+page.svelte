@@ -18,7 +18,7 @@
 			id: 1,
 			name: 'Wanderlust Travel Adventures',
 			description:
-				'Featured recent work: redesigned an outdated travel agency site into a premium, image-driven landing page focused on trust, visual storytelling, and inquiry conversion. Designed, coded, and deployed as a responsive static site using HTML, CSS, GitHub, and Netlify.',
+				'Redesigned and developed a luxury-focused travel agency website centered on trust, visual storytelling, and inquiry conversion. Created a responsive front-end experience using HTML, CSS, GitHub, and Netlify, with an emphasis on premium branding, immersive imagery, and emotionally engaging user experience.',
 			imgurl: '/images/wanderlust-travel-adventures.png',
 			attribution: 'Jo Pearson',
 			button: true,
