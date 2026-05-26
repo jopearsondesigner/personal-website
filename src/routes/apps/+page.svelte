@@ -17,14 +17,14 @@
 		},
 		{
 			id: 1,
-			name: 'Evident Stack App',
+			name: 'Evident Stack SaaS Demo',
 			description:
-				'Led the design and front-end development of Evident Stack, a SaaS platform for building event-driven systems. Owned the UI from concept through implementation, creating a scalable interface that simplified complex domain modeling and system workflows. Helped translate highly technical architecture into a usable product experience.',
+				'A portfolio-safe SaaS product demo based on my Evident Stack interface work. Designed and implemented product UI for event-driven system modeling, including complex workflows, domain entities, timeline logic, and visual system interactions. Built with SvelteKit and deployed as a live demo to show design-to-front-end execution.',
 			imgurl: '/images/evident-stack-link.png',
 			attribution: 'Jo Pearson',
 			product: true,
 			button: true,
-			href: 'https://app.evidentstack.com/'
+			href: 'https://evident-stack-demo.netlify.app/'
 		}
 	];
 </script>
