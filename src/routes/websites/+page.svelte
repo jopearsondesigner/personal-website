@@ -6,16 +6,6 @@
 	export const images = [
 		{
 			id: 0,
-			name: 'The Validation Movement',
-			description:
-				'Designed and built a compassion-centered mental health landing page focused on reducing stigma around Borderline Personality Disorder through emotionally intelligent messaging, editorial visual direction, painterly atmosphere, responsive layout, and front-end implementation using SvelteKit, CSS, and Netlify.',
-			imgurl: '/images/the-validation-movement-website.png',
-			attribution: 'Jo Pearson',
-			button: true,
-			href: 'https://the-validation-movement.netlify.app/'
-		},
-		{
-			id: 1,
 			name: 'Wanderlust Travel Adventures',
 			description:
 				'Redesigned and developed a luxury-focused travel agency website centered on trust, visual storytelling, and inquiry conversion. Created a responsive front-end experience using HTML, CSS, GitHub, and Netlify, with an emphasis on premium branding, immersive imagery, and emotionally engaging user experience.',
@@ -23,6 +13,16 @@
 			attribution: 'Jo Pearson',
 			button: true,
 			href: 'https://wanderlust-travel-adventures.netlify.app/'
+		},
+		{
+			id: 1,
+			name: 'The Validation Movement',
+			description:
+				'Designed and built a compassion-centered mental health landing page focused on reducing stigma around Borderline Personality Disorder through emotionally intelligent messaging, editorial visual direction, painterly atmosphere, responsive layout, and front-end implementation using SvelteKit, CSS, and Netlify.',
+			imgurl: '/images/the-validation-movement-website.png',
+			attribution: 'Jo Pearson',
+			button: true,
+			href: 'https://the-validation-movement.netlify.app/'
 		},
 		{
 			id: 2,
